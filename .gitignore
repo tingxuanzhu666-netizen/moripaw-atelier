@@ -1,0 +1,19 @@
+# 作業系統與編輯器暫存檔
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 環境變數與金鑰（本專案不使用，預防誤提交）
+.env
+.env.*
+*.pem
+*.key
+
+# 日誌與相依套件（若有本地工具產生）
+*.log
+node_modules/
+.vercel/
